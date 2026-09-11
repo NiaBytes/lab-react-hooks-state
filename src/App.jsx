@@ -21,11 +21,6 @@ const App = () => {
   return (
     <div className={darkMode ? 'dark-mode' : 'light-mode'}>
       <h1>🛒 Shopping App</h1>
-      <p>
-        Welcome! Your task is to implement filtering, cart management, and dark
-        mode.
-      </p>
-
       {/* TODO: Render DarkModeToggle and implement dark mode functionality */}
       <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
 
