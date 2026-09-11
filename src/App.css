@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+.light-mode,
+.dark-mode {
+  min-height: 100vh;
+  padding: 2rem;
+  transition: color 0.25s, background-color 0.25s;
+}
+
+.light-mode {
+  color: #213547;
+  background-color: #ffffff;
+}
+
+.dark-mode {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
